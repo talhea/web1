@@ -1,0 +1,51 @@
+.felx-container {
+    display: flex;
+    min-width: 500px;
+    height: 40px;
+    align-items: center;
+    padding: 10px;
+    background-color: orange;
+}
+
+.flex-item {
+    margin-right: 10px;
+}
+
+
+.main-background {
+    width: 100%;
+    min-width: 500px;
+    height: 600px;
+    background-image: url(../img/shoes.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 1px;
+}
+
+.main-content {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.main-content>h3 {
+    font-size: 50px;
+    margin: 100px 0;
+}
+
+.main-btn {
+    padding: 15px;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.sub-content {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: gray;
+    text-align: center;
+    position: relative;
+    top: -80px;
+}
