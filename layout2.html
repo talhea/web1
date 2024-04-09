@@ -3,27 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/layout2.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link href="CSS/layout2.css" rel="stylesheet">
+    <title>Codingapple</title>
 </head>
 <body>
-    <nav class="felx-container">
-        <div class="flex-item">Logo</div>
-        <div class="flex-item" style="flex-grow: 1;"></div>
-        <div class="flex-item">products</div>
-        <div class="flex-item">services</div>
-    </nav>
-    <main class="main-background">
-        <section class="main-content">
-            <h3>Buy Our Shoese!</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <button class="main-btn">구매하기</button>
-        </section>
-    </main>
-    <section class="sub-content">
-        <h3>How we design our shoes</h3>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    <section class="main-background">
+        <h4 class="main-title">Buy Our Shoes!</h4>
+        <p class="main-content">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            when an unknown printer took a galley of type and scrambled it to make a type 
+            specimen book.
+        </p>
+        <button class="main-btn">구매하셈</button>
     </section>
+    <section class="sub-content">
+        <h4 class="sub-title">How we design our Shoes</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+        </p>
+    </section>
+    <section class="form-background">
+        <div class="form-white">
+            <div class="w-100">
+                <h3>CONTACT US</h3>
+                <p>Your Email</p>
+                <input type="email" class="form-input" name="form-email">
+            </div>
+            <div class="w-50">
+                <p>First name</p>
+                <input type="text" class="form-input" name="form-firstname">
+            </div>
+            <div class="w-50">
+                <p>last name</p>
+                <input type="text" class="form-input" name="form-lastname">
+            </div>
+            <div style="clear: both;"></div>
+            <div class="w-100">
+                <p>Message</p>
+                <textarea class="form-input form-long" name="form-message"></textarea>
+            </div>
+            <div class="w-100">
+                <input  id="subs" type="checkbox">
+                <label for="subs">Subscribe</label>
+                <button type="submit" class="form-btn">SEND</button>
+            </div>
+        </div>
+    </section> 
 </body>
 </html>
